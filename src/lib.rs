@@ -1,5 +1,5 @@
 
-#![feature(core, alloc, box_syntax, optin_builtin_traits)]
+#![feature(core, alloc, box_syntax, optin_builtin_traits, heap_api, oom)]
 
 extern crate core;
 extern crate alloc;
